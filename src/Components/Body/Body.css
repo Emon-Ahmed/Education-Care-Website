@@ -17,7 +17,7 @@ Body Header Style
   padding-left: 70px;
   color: white;
 }
-.body-header-text button{
+.body-header-text button {
   margin-left: 70px;
   margin-top: 10px;
   border: 0px;
@@ -26,7 +26,7 @@ Body Header Style
   color: white;
   background-color: black;
 }
-.btn{
+.btn {
   border: 0px;
   padding: 5px 20px;
   border-radius: 3px;
@@ -73,12 +73,13 @@ Body Courses Style
   border: 0px;
 }
 .card-img {
- height: 140px;
- width: 140px;
+  height: 140px;
+  width: 140px;
 }
 .course-show {
   display: flex;
-  margin: 85px 0;
+  margin-bottom: 40px;
+  margin-top: 75px;
 }
 .course-name {
   width: 15%;
@@ -88,15 +89,29 @@ Body Courses Style
   background-color: #f15f79;
   font-weight: 700;
   border-radius: 5px;
-  height: 400px;
+  height: 380px;
   color: white;
+}
+.quotes {
+  text-align: center;
+  padding: 40px;
+  font-size: 32px;
+  background-color: #2DDE98;
+  font-weight: 700;
+  border-radius: 5px;
+  color: white;
+  display: block;
+  margin: 45px 0px;
 }
 .course-list {
   width: 85%;
-  margin-bottom: 100px;
+  margin-bottom: 20px;
 }
-.card-text{
+.card-text {
   margin: 0px;
+}
+.card-body {
+  padding: 0 0 0 10px !important;
 }
 /*---------------
 Newsletter Style

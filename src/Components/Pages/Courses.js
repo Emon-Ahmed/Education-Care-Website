@@ -13,9 +13,12 @@ export default function Courses() {
   return (
     <div className="center">
       <Container>
-      <div className="PageHeader">All Course</div>
-        {course.map((course) => ( <Course key={key} course={course}></Course>))}
-        
+        <div className="PageHeader">All Course</div>
+        <div className="courses-area">
+          {course.map((course) => (
+            <Course key={key} course={course}></Course>
+          ))}
+        </div>
       </Container>
     </div>
   );

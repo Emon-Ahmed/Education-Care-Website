@@ -1,13 +1,17 @@
-.PageHeader{
-    padding: 45px 0px;
-    margin: 20px 0px;
-    border-radius: 20px;
-    background-color: #fdcd07;
-    color: white;
-    font-size: 38px;
-    font-weight: 700;
-    text-align: center;
+.PageHeader {
+  padding: 45px 0px;
+  margin: 20px 0px;
+  border-radius: 20px;
+  background-color: #fdcd07;
+  color: white;
+  font-size: 38px;
+  font-weight: 700;
+  text-align: center;
 }
-.center{
-    margin: auto;
+.center {
+  margin: auto;
+}
+.courses-area {
+  margin-top: 60px;
+  margin-bottom: 120px!important;
 }
