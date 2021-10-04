@@ -10,8 +10,8 @@ https://edu-care.netlify.app/
 
 ## Table of Contents
 * [Project Info](#project-information)
-* [Technologies Used](#technologies-used)
 * [Features](#features)
+* [Technologies Used](#technologies-used)
 * [Acknowledgements](#acknowledgements)
 * [Contact](#contact)
 

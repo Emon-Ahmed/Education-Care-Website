@@ -1,0 +1,11 @@
+.b{
+    position: absolute;
+    bottom: 0px;
+    display: block;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    background-color: gray;
+
+}
