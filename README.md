@@ -22,15 +22,16 @@ https://edu-care.netlify.app/
 
 ## Features
 List The Ready Features Here:
-- Features 1.
-- Features 2.
-- Features 3.
+- You Can Find Best Books Here
+- With Cheap Rate
+- Also You Can Easily Navigate The Navbar.
 
 
 ## Technologies Used
 - React (JavaScript library) - version 17.0.2
 - Font Awesome - version 5.15.4
 - React Bootstrap - version 2.0.0-rc.0
+- FontAwesome - version 4
 
 
 ## Acknowledgements
