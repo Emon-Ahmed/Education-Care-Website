@@ -1,90 +1,58 @@
 [
   {
     "key": 1,
-    "age": 25,
-    "name": "Berne Lissett",
-    "designation": "Founder",
-    "email": "blissett0@flickr.com",
-    "gender": "Male",
-    "Salary": 68446,
-    "Country": "Russia",
-    "photo": "https://emonahmed.com/programming-hero/01.jpg"
+    "name": "Bangla Master Class",
+    "des": "Founder",
+    "price": 68,
+    "photo": "https://emonahmed.com/programming-hero/book-1.jpg"
   },
   {
     "key": 2,
-    "age": 24,
     "name": "Marleah Maasz",
-    "designation": "HR Manager",
-    "email": "maasz1@source.net",
-    "gender": "Male",
-    "Salary": 44834,
-    "Country": "China",
-    "photo": "https://emonahmed.com/programming-hero/02.jpg"
+    "des": "HR Manager",
+    "price": 44,
+    "photo": "https://emonahmed.com/programming-hero/book-2.jpg"
   },
   {
     "key": 3,
-    "age": 26,
     "name": "Luci Trousdell",
-    "designation": "Project Manager",
-    "email": "ltrousdell2@state.tx.us",
-    "gender": "Male",
-    "Salary": 52698,
-    "Country": "Russia",
-    "photo": "https://emonahmed.com/programming-hero/03.jpg"
+    "des": "Project Manager",
+    "price": 52,
+    "photo": "https://emonahmed.com/programming-hero/book-3.jpg"
   },
   {
     "key": 4,
-    "age": 28,
     "name": "Grannie Wetherald",
-    "designation": "Developer",
-    "email": "gwethe@yellow.com",
-    "gender": "Male",
-    "Salary": 45994,
-    "Country": "France",
-    "photo": "https://emonahmed.com/programming-hero/04.jpg"
+    "des": "Developer",
+    "price": 45,
+    "photo": "https://emonahmed.com/programming-hero/book-4.jpg"
   },
   {
     "key": 5,
-    "age": 24,
     "name": "Matilde Bidwell",
-    "designation": "Designer",
-    "email": "mbid@nationalgeo.com",
-    "gender": "Male",
-    "Salary": 17513,
-    "Country": "Burkina Faso",
-    "photo": "https://emonahmed.com/programming-hero/05.jpg"
+    "des": "Designer",
+    "price": 17,
+    "photo": "https://emonahmed.com/programming-hero/book-5.jpg"
   },
   {
     "key": 6,
-    "age": 23,
     "name": "Stanislas Balloch",
-    "designation": "Product Designer",
-    "email": "sballoch@godaddy.com",
-    "gender": "Male",
-    "Salary": 88963,
-    "Country": "Russia",
-    "photo": "https://emonahmed.com/programming-hero/06.jpg"
+    "des": "Product Designer",
+    "price": 88,
+    "photo": "https://emonahmed.com/programming-hero/book-6.jpg"
   },
   {
     "key": 7,
-    "age": 29,
     "name": "Byram Lanktree",
-    "designation": "Marketing Manager",
-    "email": "blanktree6@scribd.com",
-    "gender": "Male",
-    "Salary": 62461,
-    "Country": "Dominican Republic",
-    "photo": "https://emonahmed.com/programming-hero/07.jpg"
+    "des": "Marketing Manager",
+    "price": 62,
+    "photo": "https://emonahmed.com/programming-hero/book-7.jpg"
   },
   {
     "key": 8,
-    "age": 28,
     "name": "Flossi Perryn",
-    "designation": "Legal Manager",
-    "email": "fperryn7@spiegel.de",
-    "gender": "Male",
-    "Salary": 23648,
-    "Country": "Czech Republic",
-    "photo": "https://emonahmed.com/programming-hero/08.jpg"
+    "des": "Legal Manager",
+    "price": 23,
+    "photo": "https://emonahmed.com/programming-hero/book-8.jpg"
   }
 ]

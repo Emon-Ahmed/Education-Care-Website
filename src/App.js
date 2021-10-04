@@ -2,7 +2,7 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./Components/Header/Header";
 import Body from "./Components/Body/Body";
-import Services from "./Components/Pages/Services";
+import Courses from "./Components/Pages/Courses";
 import Contact from "./Components/Pages/Contact";
 import About from "./Components/Pages/About";
 import NotFound from "./Components/NotFound/NotFound";
@@ -18,10 +18,10 @@ function App() {
           <Route exact path="/body">
             <Body></Body>
           </Route>
-          <Route exact path="/services">
-            <Services></Services>
+          <Route exact path="/courses">
+            <Courses></Courses>
           </Route>
-          <Route exact path="/About">
+          <Route exact path="/about">
             <About></About>
           </Route>
           <Route exact path="/contact">

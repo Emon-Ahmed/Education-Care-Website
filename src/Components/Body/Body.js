@@ -1,28 +1,28 @@
 import React, { useEffect, useState } from "react";
-import { Container, Row } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import BodyHeader from "./BodyHeader";
-import SingleService from "./SingleService";
+import Course from "./Course";
 
 export default function Body() {
-  const [service, setservice] = useState([]);
+  const [course, setCourse] = useState([]);
   useEffect(() => {
     fetch("fakeData.json")
       .then((res) => res.json())
-      .then((data) => setservice(data));
+      .then((data) => setCourse(data));
   }, []);
   return (
     <div>
       <Container>
         <BodyHeader></BodyHeader>
-        <div className="col">
-          {service
-            .map((service) => (
-              <SingleService
-                service={service}
-                key={service.key}
-              ></SingleService>
-            ))
-            .slice(0, 4)}
+        <div className="course-show">
+          <div className="course-name">Course Name</div>
+          <div className="course-list">
+            {course
+              .map((course) => (
+                <Course key={course.key} course={course}></Course>
+              ))
+              .slice(4, 9)}
+          </div>
         </div>
       </Container>
     </div>
