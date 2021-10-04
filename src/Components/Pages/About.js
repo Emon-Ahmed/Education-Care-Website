@@ -7,6 +7,16 @@ const About = () => {
     <div>
       <Container>
         <div className="PageHeader">About</div>
+
+        <div className="about-area">
+          <div className="about-text">
+            <h1>About Us</h1>
+            <p></p>
+          </div>
+          <div className="about-img">
+            <img src="about.jpg" ></img>
+          </div>
+        </div>
       </Container>
     </div>
   );

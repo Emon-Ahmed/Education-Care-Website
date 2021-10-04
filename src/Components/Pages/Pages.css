@@ -15,3 +15,11 @@
   margin-top: 60px;
   margin-bottom: 120px!important;
 }
+.about-area , .contact-area{
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+}
+.about-img img, .contact-img{
+width: 60%;
+}
