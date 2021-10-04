@@ -5,10 +5,9 @@ import Body from "./Components/Body/Body";
 import Services from "./Components/Pages/Services";
 import Contact from "./Components/Pages/Contact";
 import About from "./Components/Pages/About";
-import {} from "react-bootstrap";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
 import NotFound from "./Components/NotFound/NotFound";
 import Footer from "./Components/Footer/Footer";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 function App() {
   return (

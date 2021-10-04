@@ -1,8 +1,48 @@
-.col{
-    text-align: center;
-    display: inline-block;
-    padding: 10px;
+.logo{
+    font-size: 30px!important;
+    font-weight: 700;
 }
-.link{
-    color: red;
+.nav-bar{
+    padding-top: 25px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.nav-text{
+    color: black!important;
+    padding-right: 20px!important;
+}
+.body-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  margin-top: 15px;
+  margin-bottom: 35px;
+  background-color: #fdcd07;
+  border-radius: 20px;
+}
+.body-header-text h1 {
+  font-size: 52px;
+  font-weight: bold;
+  padding-left: 70px;
+  color: white;
+}
+.body-header-text button{
+    margin-left: 70px;
+    margin-top: 10px;
+    border:0px;
+    padding: 10px 30px;
+    border-radius: 3px;
+    color: white;
+    background-color: black;
+}
+.body-header-text button span{
+    align-items: center;
+    padding-left: 10px;
+    color: white;
+}
+.body-header-img img {
+  width: 550px;
+  display: block;
+  float: right;
 }

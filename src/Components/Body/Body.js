@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Container, Row } from "react-bootstrap";
+import BodyHeader from "./BodyHeader";
 import SingleService from "./SingleService";
-
 
 export default function Body() {
   const [service, setservice] = useState([]);
@@ -13,10 +13,17 @@ export default function Body() {
   return (
     <div>
       <Container>
-        {service.map((service) => (
-          <SingleService service={service}></SingleService>
-        )).slice(0, 4)}
-
+        <BodyHeader></BodyHeader>
+        <div className="col">
+          {service
+            .map((service) => (
+              <SingleService
+                service={service}
+                key={service.key}
+              ></SingleService>
+            ))
+            .slice(0, 4)}
+        </div>
       </Container>
     </div>
   );

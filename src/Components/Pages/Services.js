@@ -3,7 +3,7 @@ import { Container, Row } from "react-bootstrap";
 import SingleService from "../Body/SingleService";
 
 export default function Services() {
-  const [service, setservice] = useState([]);
+  const [service, setservice, key] = useState([]);
   useEffect(() => {
     fetch("fakeData.json")
       .then((res) => res.json())
@@ -14,7 +14,7 @@ export default function Services() {
       <Container>
       <Row>
         {service.map((service) => (
-          <SingleService service={service}></SingleService>
+          <SingleService key={key} service={service}></SingleService>
         ))}
       </Row>
       </Container>
