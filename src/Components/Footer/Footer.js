@@ -15,9 +15,8 @@ export default function Footer() {
             <Navbar.Brand as={Link} to={"/body"} className="logo">
               <FontAwesomeIcon icon={faBookReader} /> Edu Care
             </Navbar.Brand>
+            <div className="text-right">© All Copyright Reserved</div>
           </div>
-          <div></div>
-          <div></div>
         </div>
       </Container>
     </div>
