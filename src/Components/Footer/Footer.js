@@ -4,6 +4,12 @@ import { Link } from "react-router-dom";
 import "./Footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBookReader } from "@fortawesome/free-solid-svg-icons";
+import {
+  faFacebook,
+  faLinkedin,
+  faTwitterSquare,
+  faInstagram,
+} from "@fortawesome/free-brands-svg-icons";
 
 export default function Footer() {
   return (
@@ -12,11 +18,26 @@ export default function Footer() {
         <div className="footer">
           <div>
             <hr />
-            <div>
-              <Navbar.Brand as={Link} to={"/body"} className="logo">
+            <div className="inner-footer">
+              <Navbar.Brand as={Link} to={"/body"} className="footerlogo">
                 <FontAwesomeIcon icon={faBookReader} /> Edu Care
               </Navbar.Brand>
-              <div className="text-right">© All Copyright Reserved</div>
+              <div className="icons">
+                <div className="icon">
+                  <FontAwesomeIcon size="lg" icon={faFacebook} />
+                </div>
+                <div className="icon">
+                  <FontAwesomeIcon size="lg" icon={faInstagram} />
+                </div>
+
+                <div className="icon">
+                  <FontAwesomeIcon size="lg" icon={faTwitterSquare} />
+                </div>
+                <div className="icon">
+                  <FontAwesomeIcon size="lg" icon={faLinkedin} />
+                </div>
+              </div>
+              <div className="footer-text">© All Copyright Reserved</div>
             </div>
           </div>
         </div>
