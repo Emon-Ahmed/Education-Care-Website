@@ -104,15 +104,33 @@ Body Courses Style
   color: white;
 }
 .quotes {
-  text-align: center;
-  padding: 70px 40px;
-  font-size: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #2dde98;
-  font-weight: 700;
   border-radius: 5px;
+  margin: 45px 0px;
+  padding: 60px 0;
+}
+.quotes-text {
+  text-align: center;
+  padding-right: 45px;
+  font-size: 22px;
+  font-weight: 700;
   color: white;
   display: block;
-  margin: 45px 0px;
+}
+.quotes-btn {
+  font-size: 14px;
+  border: 0px;
+  padding: 10px 40px;
+  border-radius: 20px;
+  background-color: white;
+}
+.quotes-btn:hover{
+  background-color: black;
+  color: white;
+  transition: 0.6s;
 }
 .course-list {
   width: 85%;
