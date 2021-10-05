@@ -21,8 +21,7 @@ export default function Body() {
             {course
               .map((course) => (
                 <Course key={course.key} course={course}></Course>
-              ))
-              .slice(4, 9)}
+              )).slice(4, 9)}
           </div>
         </div>
         <div className="quotes">
