@@ -7,7 +7,7 @@ export default function NotFound() {
         <div className="not-found">
             <img width="480px" src="404.svg" alt="" />
             <br />
-            <Link to="/body"> <buttn className="btn">HOME PAGE</buttn> </Link>
+            <Link to="/body"> <button className="btn">HOME PAGE</button> </Link>
         </div>
     )
 }

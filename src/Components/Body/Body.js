@@ -18,10 +18,10 @@ export default function Body() {
         <div className="course-show">
           <div className="course-name">Course Name</div>
           <div className="course-list">
-            {course
-              .map((course) => (
+            {course.map((course) => (
                 <Course key={course.key} course={course}></Course>
-              )).slice(4, 9)}
+              ))
+              .slice(4, 9)}
           </div>
         </div>
         <div className="quotes">
