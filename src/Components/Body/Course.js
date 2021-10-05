@@ -1,23 +1,20 @@
 import React from "react";
-import { Card, Button } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Card } from "react-bootstrap";
 import "./Body.css";
 
 const Course = (props) => {
-  const { name, des, photo, price } = props.course;
+  // Destructuring Course
+  const { name, description, photo, price } = props.course;
+
   return (
     <div>
       <Card className="course">
         <Card.Img className="card-img" src={photo} />
         <Card.Body>
-          <Card.Title>
-            <b>{name}</b>
-          </Card.Title>
-          <Card.Text>{des}</Card.Text>
+          <Card.Title><b>{name}</b></Card.Title>
+          <Card.Text>{description}</Card.Text>
           <h5>Price: ${price}</h5>
-          <Link to="/details">
-            <Button className="btn">Course Details</Button>{" "}
-          </Link>
+          <a className="btn">Course Details</a>
         </Card.Body>
       </Card>
     </div>

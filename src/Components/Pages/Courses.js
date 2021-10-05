@@ -5,6 +5,8 @@ import "./Pages.css";
 import "../Body/Body.css";
 
 export default function Courses() {
+
+  // Calling JSON API - Showing ALL
   const [course, setcourse] = useState([]);
   useEffect(() => {
     fetch("fakeData.json")
