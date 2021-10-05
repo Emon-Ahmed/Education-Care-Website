@@ -13,7 +13,7 @@ export default function Courses() {
   return (
     <div>
       <Container>
-        <div className="PageHeader">All Course</div>
+        <div className="PageHeader">ALL COURSE</div>
         <div className="courses-area">
           {course.map((course) => (
             <Course key={course.key} course={course}></Course>

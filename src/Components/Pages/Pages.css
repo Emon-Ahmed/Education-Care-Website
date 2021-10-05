@@ -1,5 +1,5 @@
 .PageHeader {
-  padding: 45px 0px;
+  padding: 24px 0px;
   margin: 20px 0px;
   border-radius: 3px;
   background-color: #fdcd07;
@@ -39,6 +39,7 @@
 .contact-img img {
   width: 100%;
   float: right;
+  padding: 20px 0px 20px 40px;
 }
 .contact-img, .contact-form{
   padding: 20px 0;

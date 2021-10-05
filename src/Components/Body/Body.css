@@ -9,7 +9,7 @@ Body Header Style
   margin-top: 15px;
   margin-bottom: 35px;
   background-color: #fdcd07;
-  border-radius: 20px;
+  border-radius: 14px;
 }
 .body-header-text h1 {
   font-size: 52px;
@@ -26,12 +26,19 @@ Body Header Style
   color: white;
   background-color: black;
 }
-.btn {
+.btn{
   border: 0px;
-  padding: 4px 15px;
+  padding: 2px 15px;
   border-radius: 3px;
   color: white;
   background-color: black;
+  border: 1px solid black;
+
+}
+.btn:hover{
+  color: black;
+  background-color: white;
+  border: 1px solid black;
 }
 .body-header-text button:hover {
   color: black;

@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div>
       <Container>
-        <div className="PageHeader">About</div>
+        <div className="PageHeader">ABOUT</div>
 
         <div className="about-area">
           <div className="about-text">
@@ -16,7 +16,7 @@ const About = () => {
             <p>Get a learning boost with thousands of worksheets, games, lesson plans, and more from our library of printable and digital resources for preschool</p>
           </div>
           <div className="about-img">
-            <img src="about.jpg" alt="about"></img>
+            <img src="about.svg" alt="about"></img>
           </div>
         </div>
       </Container>

@@ -1,12 +1,13 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import "./NotFound.css"
 
 export default function NotFound() {
     return (
         <div className="not-found">
-            <img width="480px" src="404.jpg" alt="" />
+            <img width="480px" src="404.svg" alt="" />
             <br />
-            <buttn className="btn">HOME PAGE</buttn>
+            <Link to="/body"> <buttn className="btn">HOME PAGE</buttn> </Link>
         </div>
     )
 }
