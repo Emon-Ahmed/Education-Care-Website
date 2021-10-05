@@ -22,22 +22,21 @@ https://edu-care.netlify.app/
 
 ## Features
 List The Ready Features Here:
-- You Can Find Best Books Here
-- With Cheap Rate
-- Also You Can Easily Navigate The Navbar.
+- You Can Find Best Courses Here
+- Also You Can Easily Navigate The Navbar
+- This Design is Followed By "Less is More"
 
 
 ## Technologies Used
 - React (JavaScript library) - version 17.0.2
 - Font Awesome - version 5.15.4
 - React Bootstrap - version 2.0.0-rc.0
-- FontAwesome - version 4
 
 
 ## Acknowledgements
 Give Credit Here
 - This Assignment was Provided By [Programming-Hero](https://web.programming-hero.com/)
-- Many thanks To Programming-Hero Team.
+- Many thanks To Programming-Hero Team
 
 
 ## Contact
