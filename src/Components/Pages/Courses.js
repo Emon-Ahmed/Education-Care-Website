@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Container } from "react-bootstrap";
 import Course from "../Body/Course";
 import "./Pages.css";
+import "../Body/Body.css";
 
 export default function Courses() {
   const [course, setcourse] = useState([]);
@@ -13,11 +14,13 @@ export default function Courses() {
   return (
     <div>
       <Container>
-        <div className="PageHeader">ALL COURSE</div>
-        <div className="courses-area">
-          {course.map((course) => (
-            <Course key={course.key} course={course}></Course>
-          ))}
+        <div>
+          <div className="PageHeader">ALL COURSE</div>
+          <div className="course-inner-list">
+            {course.map((course) => (
+              <Course key={course.key} course={course}></Course>
+            ))}
+          </div>
         </div>
       </Container>
     </div>

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Container } from "react-bootstrap";
 import BodyHeader from "./BodyHeader";
 import Course from "./Course";
-import "./Body.css"
+import "./Body.css";
 
 export default function Body() {
   const [course, setCourse] = useState([]);
@@ -25,7 +25,9 @@ export default function Body() {
               .slice(4, 9)}
           </div>
         </div>
-        <div className="quotes">“Science is about knowing, engineering is about doing”</div>
+        <div className="quotes">
+          “Science is about knowing, engineering is about doing”
+        </div>
       </Container>
     </div>
   );

@@ -10,12 +10,14 @@ export default function Footer() {
     <div>
       <Container>
         <div className="footer">
-          <hr />
           <div>
-            <Navbar.Brand as={Link} to={"/body"} className="logo">
-              <FontAwesomeIcon icon={faBookReader} /> Edu Care
-            </Navbar.Brand>
-            <div className="text-right">© All Copyright Reserved</div>
+            <hr />
+            <div>
+              <Navbar.Brand as={Link} to={"/body"} className="logo">
+                <FontAwesomeIcon icon={faBookReader} /> Edu Care
+              </Navbar.Brand>
+              <div className="text-right">© All Copyright Reserved</div>
+            </div>
           </div>
         </div>
       </Container>
