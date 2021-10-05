@@ -1,22 +1,22 @@
 import React, { useEffect, useState } from "react";
-import { Container, Row } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import Course from "../Body/Course";
 import "./Pages.css";
 
 export default function Courses() {
-  const [course, setcourse, key] = useState([]);
+  const [course, setcourse] = useState([]);
   useEffect(() => {
     fetch("fakeData.json")
       .then((res) => res.json())
       .then((data) => setcourse(data));
   }, []);
   return (
-    <div className="center">
+    <div>
       <Container>
         <div className="PageHeader">All Course</div>
         <div className="courses-area">
           {course.map((course) => (
-            <Course key={key} course={course}></Course>
+            <Course key={course.key} course={course}></Course>
           ))}
         </div>
       </Container>

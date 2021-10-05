@@ -28,7 +28,7 @@ Body Header Style
 }
 .btn {
   border: 0px;
-  padding: 5px 20px;
+  padding: 4px 15px;
   border-radius: 3px;
   color: white;
   background-color: black;
@@ -86,10 +86,11 @@ Body Courses Style
   writing-mode: vertical-rl;
   padding: 20px;
   font-size: 40px;
-  background-color: #f15f79;
+  /* background-color: #f15f79; */
+  background-color: #81B024;
   font-weight: 700;
   border-radius: 5px;
-  height: 380px;
+  height: 400px;
   color: white;
 }
 .quotes {
@@ -108,10 +109,11 @@ Body Courses Style
   margin-bottom: 20px;
 }
 .card-text {
-  margin: 0px;
+  margin: 4px 0px;
+  line-height: 18px;
 }
 .card-body {
-  padding: 0 0 0 10px !important;
+  padding: 0 0 0 12px !important;
 }
 /*---------------
 Newsletter Style

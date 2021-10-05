@@ -10,11 +10,11 @@ const Course = (props) => {
         <Card className="course">
           <Card.Img className="card-img" src={photo} />
           <Card.Body>
-            <Card.Title>{name}</Card.Title>
+            <Card.Title> <b>{name}</b> </Card.Title>
             <Card.Text>{des}</Card.Text>
-            <Card.Text>Price: ${price}</Card.Text>
+            <h5>Price: ${price}</h5>
             <Link to="/details"> <Button className="btn">
-              Details
+            Course Details
             </Button> </Link>
           </Card.Body>
         </Card>
